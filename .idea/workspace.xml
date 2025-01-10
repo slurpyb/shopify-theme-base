@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ccb4150-5a63-4dbf-ac3d-f9487c4eac87" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/header.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/header.liquid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopify.theme.toml" beforeDir="false" afterPath="$PROJECT_DIR$/shopify.theme.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/404.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/404.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/cart.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cart.json" afterDir="false" />
-    </list>
+    <list default="true" id="9ccb4150-5a63-4dbf-ac3d-f9487c4eac87" name="Changes" comment="fix header" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736506525920</updated>
-      <workItem from="1736506527025" duration="351000" />
+      <workItem from="1736506527025" duration="835000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -78,14 +72,34 @@
       <option name="project" value="LOCAL" />
       <updated>1736506552473</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix header">
+      <option name="closed" value="true" />
+      <created>1736507334935</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736507334935</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="fix header" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix header" />
   </component>
 </project>

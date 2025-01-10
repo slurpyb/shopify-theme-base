@@ -1,44 +1,8 @@
 {
   "sections": {
-    "page_home": {
-      "type": "page-home"
-    },
-    "test_section": {
-      "type": "test-section",
-      "blocks": {
-        "row_1": {
-          "type": "row",
-          "settings": {
-            "caption": "TEST SECTION ROW 1 CAPTION",
-            "heading": "TEST SECTION ROW 1 HEADING",
-          
-            }
-          },
-          "row_2": {
-          "type": "row",
-          "settings": {
-            "caption": "TEST SECTION ROW 2 CAPTION",
-            "heading": "TEST SECTION ROW 2 HEADING",
-            
-          }},
-          "row_3": {
-          "type": "row",
-          "settings": {
-            "caption": "TEST SECTION ROW 3 CAPTION",
-            "heading": "TEST SECTION ROW 3 HEADING",
-          
-          }},
-        },
-        "block_order": [
-          "row_1", "row_2", "row_3"
-        ]
-      
-    }
-   
+
   },
   "order": [
-    "page_home",
-    "test_section"
     
   ]
 }
