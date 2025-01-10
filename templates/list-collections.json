@@ -3,9 +3,6 @@
 		"main": {
 			"type": "list-collections-template",
 			"settings": {
-				"title": "Collections",
-				"sort": "alphabetical",
-				"image_ratio": "square"
 			}
 		}
 	},

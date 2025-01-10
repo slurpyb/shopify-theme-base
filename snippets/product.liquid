@@ -34,7 +34,7 @@
                                         <a href="{% if collection %}{{ collection.url }}{% else %}{{ routes.all_products_collection_url }}{% endif %}?filter.p.vendor={{ product.vendor | url_param_escape }}">
                                           {{ product.vendor }}
                                         </a>
-        =                            </span>
+                                    </span>
                                 </p>
                             {% when 'sku' %}
                                 {% if variant.sku != blank %}
@@ -81,7 +81,7 @@
                                         </p>
                                         <p class="rating__count">
                                             <span aria-hidden="true">({{ product.metafields.reviews.rating_count }})</span>
-                                            <span class="visually-hidden">{{ product.metafields.reviews.rating_count }} {{ "general.accessibility.total_reviews" | t }}</span>
+                                            <span class="visually-hidden">{{ product.metafields.reviews.rating_count }} total reviews </span>
                                         </p>
                                     </div>
                                 {% endif %}

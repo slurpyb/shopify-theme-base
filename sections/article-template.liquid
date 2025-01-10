@@ -54,12 +54,7 @@
                 <div class="article-template__content" {{ block.shopify_attributes }}>
                     {{ article.content }}
                 </div>
-            {%- when 'share' -%}
-                <div class="article-template__social-sharing" {{ block.shopify_attributes }}>
-                    {% assign share_url = request.origin | append: article.url %}
-                    {% comment %}TODO: Import share-button snippet from Dawn {% endcomment %}
-                    {% render 'share-button', block: block, share_link: share_url %}
-                </div>
+
         {% endcase %}
     {%- endfor -%}
 </article>
@@ -133,27 +128,6 @@
 			"type": "content",
 			"name": "t:sections.main-article.blocks.content.name",
 			"limit": 1
-		},
-		{
-			"type": "share",
-			"name": "t:sections.main-article.blocks.share.name",
-			"limit": 2,
-			"settings": [
-				{
-					"type": "text",
-					"id": "share_label",
-					"label": "t:sections.main-article.blocks.share.settings.text.label",
-					"default": "t:sections.main-article.blocks.share.settings.text.default"
-				},
-				{
-					"type": "paragraph",
-					"content": "t:sections.main-article.blocks.share.settings.featured_image_info.content"
-				},
-				{
-					"type": "paragraph",
-					"content": "t:sections.main-article.blocks.share.settings.title_info.content"
-				}
-			]
 		}
 	]
 }

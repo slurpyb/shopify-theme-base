@@ -1,0 +1,1006 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"9ccb4150-5a63-4dbf-ac3d-f9487c4eac87\" name=\"Changes\" comment=\"fix header\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\n  \"lastFilter\": {\n    \"state\": \"OPEN\",\n    \"assignee\": \"slurpyb\"\n  }\n}]]></component>\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\n  \"selectedUrlAndAccountId\": {\n    \"url\": \"https://github.com/slurpyb/shopify-theme-base.git\",\n    \"accountId\": \"78efd775-11c3-496d-9a70-f154605f7743\"\n  }\n}]]></component>\n  <component name=\"ProjectColorInfo\"><![CDATA[{\n  \"associatedIndex\": 4\n}]]></component>\n  <component name=\"ProjectId\" id=\"2rR0LePAJsGp9u9LUTDACPxfv62\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n    <option name=\"showMembers\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.git.unshallow\": \"true\",\n    \"git-widget-placeholder\": \"main\",\n    \"last_opened_file_path\": \"/Users/jordan/src/2025/shopify-theme-base\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\"\n  }\n}]]></component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"9ccb4150-5a63-4dbf-ac3d-f9487c4eac87\" name=\"Changes\" comment=\"\" />\n      <created>1736506525920</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1736506525920</updated>\n      <workItem from=\"1736506527025\" duration=\"835000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"initial commit\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1736506552473</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1736506552473</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"fix header\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1736507334935</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1736507334935</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"3\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"initial commit\" />\n    <MESSAGE value=\"fix header\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"fix header\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision ae25372604a0a494bfa3cc85f07e950448d114d9)
++++ b/.idea/workspace.xml	(date 1736527002960)
+@@ -4,7 +4,20 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="9ccb4150-5a63-4dbf-ac3d-f9487c4eac87" name="Changes" comment="fix header" />
++    <list default="true" id="9ccb4150-5a63-4dbf-ac3d-f9487c4eac87" name="Changes" comment="update">
++      <change afterPath="$PROJECT_DIR$/sections/custom-html.liquid" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sections/custom-liquid.liquid" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/sections/list-collections-template.liquid" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/snippets/custom-css.liquid" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/snippets/product__structured-data.liquid" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/snippets/rateing-stars.liquid" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/sections/page-template.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/page-template.liquid" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/sections/product-template.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/product-template.liquid" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/shopify.theme.toml" beforeDir="false" afterPath="$PROJECT_DIR$/shopify.theme.toml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/snippets/product.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/product.liquid" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/templates/list-collections.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list-collections.json" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -29,6 +42,9 @@
+   "associatedIndex": 4
+ }]]></component>
+   <component name="ProjectId" id="2rR0LePAJsGp9u9LUTDACPxfv62" />
++  <component name="ProjectLevelVcsManager">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -39,7 +55,7 @@
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "RunOnceActivity.git.unshallow": "true",
+     "git-widget-placeholder": "main",
+-    "last_opened_file_path": "/Users/jordan/src/2025/shopify-theme-base",
++    "last_opened_file_path": "/Users/jordan/src/2025/shopify-theme-base/sections",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
+@@ -47,6 +63,11 @@
+     "nodejs_package_manager_path": "npm"
+   }
+ }]]></component>
++  <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/sections" />
++    </key>
++  </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+@@ -62,7 +83,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1736506525920</updated>
+-      <workItem from="1736506527025" duration="835000" />
++      <workItem from="1736506527025" duration="5208000" />
+     </task>
+     <task id="LOCAL-00001" summary="initial commit">
+       <option name="closed" value="true" />
+@@ -80,7 +101,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1736507334935</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="clean out index template">
++      <option name="closed" value="true" />
++      <created>1736507528164</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1736507528164</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -100,6 +129,8 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="initial commit" />
+     <MESSAGE value="fix header" />
+-    <option name="LAST_COMMIT_MESSAGE" value="fix header" />
++    <MESSAGE value="clean out index template" />
++    <MESSAGE value="update" />
++    <option name="LAST_COMMIT_MESSAGE" value="update" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: templates/list-collections.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/templates/list-collections.json b/templates/list-collections.json
+--- a/templates/list-collections.json	(revision ae25372604a0a494bfa3cc85f07e950448d114d9)
++++ b/templates/list-collections.json	(date 1736507769716)
+@@ -1,0 +1,15 @@
++{
++	"sections": {
++		"main": {
++			"type": "list-collections-template",
++			"settings": {
++				"title": "Collections",
++				"sort": "alphabetical",
++				"image_ratio": "square"
++			}
++		}
++	},
++	"order": [
++		"main"
++	]
++}
+Index: shopify.theme.toml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># usage: shopify theme dev --environment dev\n[environments.dev]\ntheme = \"146147803377\"\nstore = \"slurpyb-theme-base\"\n# Password generated from the Theme Access app.\n#password  = \"shptka_123456\"\n#ignore = \"sections/header.liquid\"\nstore-password = 'sheita'\ntheme-editor-sync = true\noutput = \"json\"\nlive = false\nallow-live = false\nverbose = true\nno-delete = true\nlive-reload = \"hot-reload\"\nhost = \"127.0.0.1\"\nport = \"9292\"\n\n#[environments.staging]\n#theme = \"shopify-theme-base\"\n#store = \"slurpyb\"\n##password  = \"shptka_123456\"\n##ignore = \"sections/header.liquid\"\n#output = \"json\"\n#live = true\n#allow-live = true\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/shopify.theme.toml b/shopify.theme.toml
+--- a/shopify.theme.toml	(revision ae25372604a0a494bfa3cc85f07e950448d114d9)
++++ b/shopify.theme.toml	(date 1736507667608)
+@@ -7,7 +7,7 @@
+ #ignore = "sections/header.liquid"
+ store-password = 'sheita'
+ theme-editor-sync = true
+-output = "json"
++#output = "json"
+ live = false
+ allow-live = false
+ verbose = true
+Index: snippets/product.liquid
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{% comment %}\n  @param product {Object}\n    The product object\n\n  @param context {String}\n    The name of the template\n\n  @param variant {Object}\n    The variant object\n{% endcomment %}\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/snippets/product.liquid b/snippets/product.liquid
+--- a/snippets/product.liquid	(revision ae25372604a0a494bfa3cc85f07e950448d114d9)
++++ b/snippets/product.liquid	(date 1736509555533)
+@@ -9,3 +9,93 @@
+     The variant object
+ {% endcomment %}
+ 
++{% if product != blank and context == 'product' %}
++    {%
++            render 'product__structured-data',
++            product: product
++    %}
++{% endif %}
++
++<div class="product product__root">
++    <div class="product__inner">
++        <div class="product__header">
++
++        </div>
++        <div class="product__content">
++            {% for block in section.blocks %}
++                <div class="product-block product-block__main product-block__{{ block.type }} {% if forloop.first == true %} product-block--first{% endif %}"
++                        {{ block.shopify_attributes }}>
++                    <div class="product-block__inner {{ block.type }}__inner">
++                        <div class="product-block__content {{ block.type }}__content">
++                        {% case block.type %}
++                            {% when 'vendor' %}
++                                <p class="vendor">
++                                    <span class="vendor">
++                                        <a href="{% if collection %}{{ collection.url }}{% else %}{{ routes.all_products_collection_url }}{% endif %}?filter.p.vendor={{ product.vendor | url_param_escape }}">
++                                          {{ product.vendor }}
++                                        </a>
++        =                            </span>
++                                </p>
++                            {% when 'sku' %}
++                                {% if variant.sku != blank %}
++                                    <p class="sku">
++                                        <span>{{ variant.sku }}</span>
++                                    </p>
++                                {% endif %}
++                            {% when 'title' %}
++                                {% if context == 'product' %}
++                                    <h1 class="title product-title">
++                                        {{- product.title | escape -}}
++                                    </h1>
++                                {% else %}
++                                    <h2 class="title product-title">
++                                        <a href="{{ product.url }}">
++                                            {{- product.title | escape -}}
++                                        </a>
++                                    </h2>
++                                {% endif %}
++                            {% when 'price' %}
++                                <p class="price">
++                                    {{ product.price }}
++                                </p>
++                            {% when 'custom-liquid' %}
++                                {{ block.settings.custom_liquid }}
++                            {% when 'description' %}
++                                {% if product.description != blank %}
++
++                                    <div class="description rte">
++                                        {{ product.description | split: '<!-- split -->' | first }}
++                                    </div>
++
++                                {% endif %}
++                            {% when 'rating' %}
++                                {% if product.metafields.reviews.rating.value != blank %}
++                                    <div class="product-rating">
++                                        {%
++                                                render 'rating-stars',
++                                                value: product.metafields.reviews.rating.value.rating,
++                                                scale_max: product.metafields.reviews.rating.value.scale_max
++                                        %}
++                                        <p class="rating__text">
++                                            <span aria-hidden="true">{{ product.metafields.reviews.rating.value }} / {{ product.metafields.reviews.rating.value.scale_max }}</span>
++                                        </p>
++                                        <p class="rating__count">
++                                            <span aria-hidden="true">({{ product.metafields.reviews.rating_count }})</span>
++                                            <span class="visually-hidden">{{ product.metafields.reviews.rating_count }} {{ "general.accessibility.total_reviews" | t }}</span>
++                                        </p>
++                                    </div>
++                                {% endif %}
++                            {% when '@app' %}
++                                {% render block %}
++                        {% endcase %}
++                        </div>
++                    </div>
++            </div>
++            {% endfor %}
++
++        </div>
++        <div class="product__footer">
++
++        </div>
++    </div>
++</div>
+\ No newline at end of file
+Index: snippets/custom-css.liquid
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/snippets/custom-css.liquid b/snippets/custom-css.liquid
+new file mode 100644
+--- /dev/null	(date 1736526967132)
++++ b/snippets/custom-css.liquid	(date 1736526967132)
+@@ -0,0 +1,19 @@
++{% comment %}
++Custom CSS loop - creates CSS declarations that are specific to the section or block
++  @param id {Number}
++    The section or block id (required)
++  @param css {String}
++    CSS declarations (required)
++
++Example use:
++    {% render 'css-loop', section: {{ section.id }}, css: {{ section.settings.custom_css }} %}
++{% endcomment %}
++
++{%- if css != blank -%}
++    {%- assign declarations = css | split: '}' -%}
++    {%- for declaration in declarations -%}
++        {%- if declaration != '' -%}
++            #shopify-section-{{ id }} {{ declaration }} }
++        {%- endif -%}
++    {%- endfor -%}
++{%- endif -%}
+Index: sections/product-template.liquid
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><script type=\"application/json\" data-section-type=\"product-template\" data-section-id=\"{{ section.id }}\">\n</script>\n\n<section class=\"section\">\n    <div class=\"container\">\n        {%\n                render 'product',\n                context: 'product',\n                product: product,\n                variant: product.selected_or_first_available_variant\n        %}\n    </div>\n</section>\n\n\n{% schema %}\n{\n\t\"name\": \"Product information\",\n\t\"class\": \"shopify-section--product-template is-product-main content\",\n\t\"settings\": [\n\t\n\t],\n\t\"blocks\": [\n\t\t{\n\t\t\t\"type\": \"@app\"\n\t\t},\n\t\t\n\t\t{\n\t\t\t\"type\": \"custom-liquid\",\n\t\t\t\"name\": \"Custom liquid\",\n\t\t\t\"settings\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"liquid\",\n\t\t\t\t\t\"id\": \"custom_liquid\",\n\t\t\t\t\t\"label\": \"Custom liquid\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"type\": \"description\",\n\t\t\t\"name\": \"Description\",\n\t\t\t\"limit\": 1\n\t\t},\n\t\t{\n\t\t\t\"type\": \"form\",\n\t\t\t\"name\": \"Form\",\n\t\t\t\"limit\": 1,\n\t\t\t\"settings\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"paragraph\",\n\t\t\t\t\t\"content\": \"Customize form features for the product in the products portion of the theme settings.\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"type\": \"popup\",\n\t\t\t\"name\": \"Pop-up\",\n\t\t\t\"limit\": 1,\n\t\t\t\"settings\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"text\",\n\t\t\t\t\t\"id\": \"text\",\n\t\t\t\t\t\"label\": \"Text\",\n\t\t\t\t\t\"default\": \"Pop-up link text\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"select\",\n\t\t\t\t\t\"id\": \"text_alignment\",\n\t\t\t\t\t\"label\": \"Text alignment\",\n\t\t\t\t\t\"default\": \"left\",\n\t\t\t\t\t\"options\": [\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\"value\": \"left\",\n\t\t\t\t\t\t\t\"label\": \"Left\"\n\t\t\t\t\t\t},\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\"value\": \"center\",\n\t\t\t\t\t\t\t\"label\": \"Center\"\n\t\t\t\t\t\t},\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\"value\": \"right\",\n\t\t\t\t\t\t\t\"label\": \"Right\"\n\t\t\t\t\t\t}\n\t\t\t\t\t]\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"page\",\n\t\t\t\t\t\"id\": \"page\",\n\t\t\t\t\t\"label\": \"Page\",\n\t\t\t\t\t\"info\": \"[Learn more](https:\\/\\/help.outofthesandbox.com\\/hc\\/en-us\\/articles\\/115006910707-Using-the-Size-Chart-Sections-themes-)\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"type\": \"price\",\n\t\t\t\"name\": \"Price\",\n\t\t\t\"limit\": 1,\n\t\t\t\"settings\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"checkbox\",\n\t\t\t\t\t\"id\": \"display_savings\",\n\t\t\t\t\t\"label\": \"Show price savings\",\n\t\t\t\t\t\"default\": true\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"type\": \"product-links\",\n\t\t\t\"name\": \"Product links\",\n\t\t\t\"limit\": 1,\n\t\t\t\"settings\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"checkbox\",\n\t\t\t\t\t\"id\": \"show_collections\",\n\t\t\t\t\t\"label\": \"Show collections\",\n\t\t\t\t\t\"default\": true\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"checkbox\",\n\t\t\t\t\t\"id\": \"show_types\",\n\t\t\t\t\t\"label\": \"Show types\",\n\t\t\t\t\t\"default\": true\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"checkbox\",\n\t\t\t\t\t\"id\": \"show_tags\",\n\t\t\t\t\t\"label\": \"Show tags\",\n\t\t\t\t\t\"default\": true\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"type\": \"rating\",\n\t\t\t\"name\": \"Product rating\",\n\t\t\t\"limit\": 1,\n\t\t\t\"settings\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"paragraph\",\n\t\t\t\t\t\"content\": \"To display a rating, add a product rating app. [Learn more](https://apps.shopify.com/product-reviews)\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"type\": \"sku\",\n\t\t\t\"name\": \"SKU\",\n\t\t\t\"limit\": 1\n\t\t},\n\t\t{\n\t\t\t\"type\": \"share\",\n\t\t\t\"name\": \"Share\",\n\t\t\t\"limit\": 1\n\t\t},\n\t\t{\n\t\t\t\"type\": \"tabs\",\n\t\t\t\"name\": \"Tabs\",\n\t\t\t\"limit\": 1,\n\t\t\t\"settings\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"checkbox\",\n\t\t\t\t\t\"id\": \"show_product_description\",\n\t\t\t\t\t\"label\": \"Show product description\",\n\t\t\t\t\t\"default\": false\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"checkbox\",\n\t\t\t\t\t\"id\": \"show_tabs_below_product_gallery\",\n\t\t\t\t\t\"label\": \"Show tabs below product gallery\",\n\t\t\t\t\t\"info\": \"Desktop only\",\n\t\t\t\t\t\"default\": false\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"header\",\n\t\t\t\t\t\"content\": \"Tab\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"text\",\n\t\t\t\t\t\"id\": \"tab_heading_1\",\n\t\t\t\t\t\"label\": \"Heading\",\n\t\t\t\t\t\"default\": \"Tab 1\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"richtext\",\n\t\t\t\t\t\"id\": \"tab_text_1\",\n\t\t\t\t\t\"label\": \"Text\",\n\t\t\t\t\t\"default\": \"<p>Use this text to share information about your product.</p>\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"header\",\n\t\t\t\t\t\"content\": \"Tab\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"text\",\n\t\t\t\t\t\"id\": \"tab_heading_2\",\n\t\t\t\t\t\"label\": \"Heading\",\n\t\t\t\t\t\"default\": \"Tab 2\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"richtext\",\n\t\t\t\t\t\"id\": \"tab_text_2\",\n\t\t\t\t\t\"label\": \"Text\",\n\t\t\t\t\t\"default\": \"<p>Use this text to share information about your product.</p>\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"header\",\n\t\t\t\t\t\"content\": \"Tab\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"text\",\n\t\t\t\t\t\"id\": \"tab_heading_3\",\n\t\t\t\t\t\"label\": \"Heading\",\n\t\t\t\t\t\"default\": \"Tab 3\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"richtext\",\n\t\t\t\t\t\"id\": \"tab_text_3\",\n\t\t\t\t\t\"label\": \"Text\",\n\t\t\t\t\t\"default\": \"<p>Use this text to share information about your product.</p>\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"type\": \"text\",\n\t\t\t\"name\": \"Text\",\n\t\t\t\"settings\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"richtext\",\n\t\t\t\t\t\"id\": \"text\",\n\t\t\t\t\t\"label\": \"Text\",\n\t\t\t\t\t\"default\": \"<p>Text block</p>\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"type\": \"title\",\n\t\t\t\"name\": \"Title\",\n\t\t\t\"limit\": 1\n\t\t},\n\t\t{\n\t\t\t\"type\": \"vendor\",\n\t\t\t\"name\": \"Vendor\",\n\t\t\t\"limit\": 1\n\t\t},\n\t\t{\n\t\t\t\"type\": \"complementary_products\",\n\t\t\t\"name\": \"Complementary products\",\n\t\t\t\"limit\": 1,\n\t\t\t\"settings\": [\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"paragraph\",\n\t\t\t\t\t\"content\": \"To select complementary products, add the Search & Discovery app. [Learn more](https:\\/\\/shopify.dev\\/themes\\/product-merchandising\\/recommendations)\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"text\",\n\t\t\t\t\t\"id\": \"heading\",\n\t\t\t\t\t\"label\": \"Heading\",\n\t\t\t\t\t\"default\": \"Pairs well with\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"range\",\n\t\t\t\t\t\"id\": \"product_recommendation_limit\",\n\t\t\t\t\t\"label\": \"Maximum products to show\",\n\t\t\t\t\t\"min\": 1,\n\t\t\t\t\t\"max\": 10,\n\t\t\t\t\t\"default\": 5\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"type\": \"range\",\n\t\t\t\t\t\"id\": \"products_per_slide\",\n\t\t\t\t\t\"label\": \"Number of products per page\",\n\t\t\t\t\t\"min\": 1,\n\t\t\t\t\t\"max\": 3,\n\t\t\t\t\t\"default\": 2\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t]\n}\n\n{% endschema %}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sections/product-template.liquid b/sections/product-template.liquid
+--- a/sections/product-template.liquid	(revision ae25372604a0a494bfa3cc85f07e950448d114d9)
++++ b/sections/product-template.liquid	(date 1736509832430)
+@@ -1,30 +1,165 @@
+ <script type="application/json" data-section-type="product-template" data-section-id="{{ section.id }}">
+ </script>
+ 
+-<section class="section">
+-    <div class="container">
+-        {%
+-                render 'product',
+-                context: 'product',
+-                product: product,
+-                variant: product.selected_or_first_available_variant
+-        %}
+-    </div>
++<section class="section section-{{ section.id }}">
++	<div class="section__inner">
++		<div class="section__header">
++
++		</div>
++
++		<div class="section__content">
++			{%
++					render 'product', context: 'product', product: product,
++					variant: product.selected_or_first_available_variant
++			%}
++		</div>
++		<div class="section__footer">
++
++		</div>
++	</div>
+ </section>
+ 
+ 
++
+ {% schema %}
+ {
+ 	"name": "Product information",
+ 	"class": "shopify-section--product-template is-product-main content",
+ 	"settings": [
+-	
++		{
++			"type": "checkbox",
++			"id": "product_breadcrumb",
++			"label": "Show breadcrumb links"
++		},
++		{
++			"type": "header",
++			"content": "Media",
++			"info": "Learn more about [media types](https://help.shopify.com/en/manual/products/product-media)"
++		},
++		{
++			"type": "radio",
++			"id": "media_position",
++			"label": "Product media position",
++			"options": [
++				{
++					"value": "is-flex-row",
++					"label": "Left"
++				},
++				{
++					"value": "is-flex-row-reverse",
++					"label": "Right"
++				}
++			]
++		},
++		{
++			"type": "checkbox",
++			"id": "set_product_height",
++			"label": "Set height of product media",
++			"default": false
++		},
++		{
++			"type": "range",
++			"id": "product_height",
++			"label": "Product media height",
++			"min": 200,
++			"max": 800,
++			"step": 10,
++			"default": 500,
++			"unit": "px"
++		},
++		{
++			"type": "checkbox",
++			"id": "video_looping",
++			"label": "Enable video looping",
++			"default": false
++		},
++		{
++			"type": "header",
++			"content": "Product gallery"
++		},
++		{
++			"type": "checkbox",
++			"id": "product_thumbs",
++			"label": "Show thumbnails",
++			"default": true
++		},
++		{
++			"type": "checkbox",
++			"id": "gallery_arrows",
++			"label": "Show arrows",
++			"info": "Only applies to desktop",
++			"default": true
++		},
++		{
++			"type": "checkbox",
++			"id": "enable_product_lightbox",
++			"label": "Enable lightbox",
++			"default": true
++		},
++		{
++			"type": "checkbox",
++			"id": "activate_zoom",
++			"label": "Magnify product images on hover",
++			"default": true
++		},
++		{
++			"type": "range",
++			"id": "slideshow_speed",
++			"label": "Gallery speed",
++			"min": 0,
++			"max": 6,
++			"unit": "sec",
++			"default": 0,
++			"info": "Set to 0 to disable autoplay."
++		},
++		{
++			"type": "select",
++			"id": "slideshow_animation",
++			"label": "Transition",
++			"options": [
++				{
++					"value": "slide",
++					"label": "Slide"
++				},
++				{
++					"value": "fade",
++					"label": "Fade"
++				}
++			],
++			"default": "slide"
++		},
++		{
++			"type": "select",
++			"id": "thumbnail_position",
++			"label": "Thumbnails position",
++			"default": "bottom",
++			"options": [
++				{
++					"value": "bottom",
++					"label": "Below main image"
++				},
++				{
++					"value": "left",
++					"label": "Left of main image"
++				},
++				{
++					"value": "right",
++					"label": "Right of main image"
++				}
++			]
++		},
++		{
++			"type": "checkbox",
++			"id": "enable_thumbnail_slider",
++			"label": "Enable thumbnail slider",
++			"default": true
++		}
+ 	],
+ 	"blocks": [
+ 		{
+ 			"type": "@app"
+ 		},
+-		
++
+ 		{
+ 			"type": "custom-liquid",
+ 			"name": "Custom liquid",
+@@ -52,45 +187,7 @@
+ 				}
+ 			]
+ 		},
+-		{
+-			"type": "popup",
+-			"name": "Pop-up",
+-			"limit": 1,
+-			"settings": [
+-				{
+-					"type": "text",
+-					"id": "text",
+-					"label": "Text",
+-					"default": "Pop-up link text"
+-				},
+-				{
+-					"type": "select",
+-					"id": "text_alignment",
+-					"label": "Text alignment",
+-					"default": "left",
+-					"options": [
+-						{
+-							"value": "left",
+-							"label": "Left"
+-						},
+-						{
+-							"value": "center",
+-							"label": "Center"
+-						},
+-						{
+-							"value": "right",
+-							"label": "Right"
+-						}
+-					]
+-				},
+-				{
+-					"type": "page",
+-					"id": "page",
+-					"label": "Page",
+-					"info": "[Learn more](https:\/\/help.outofthesandbox.com\/hc\/en-us\/articles\/115006910707-Using-the-Size-Chart-Sections-themes-)"
+-				}
+-			]
+-		},
++
+ 		{
+ 			"type": "price",
+ 			"name": "Price",
+@@ -104,31 +201,7 @@
+ 				}
+ 			]
+ 		},
+-		{
+-			"type": "product-links",
+-			"name": "Product links",
+-			"limit": 1,
+-			"settings": [
+-				{
+-					"type": "checkbox",
+-					"id": "show_collections",
+-					"label": "Show collections",
+-					"default": true
+-				},
+-				{
+-					"type": "checkbox",
+-					"id": "show_types",
+-					"label": "Show types",
+-					"default": true
+-				},
+-				{
+-					"type": "checkbox",
+-					"id": "show_tags",
+-					"label": "Show tags",
+-					"default": true
+-				}
+-			]
+-		},
++
+ 		{
+ 			"type": "rating",
+ 			"name": "Product rating",
+@@ -146,79 +219,6 @@
+ 			"limit": 1
+ 		},
+ 		{
+-			"type": "share",
+-			"name": "Share",
+-			"limit": 1
+-		},
+-		{
+-			"type": "tabs",
+-			"name": "Tabs",
+-			"limit": 1,
+-			"settings": [
+-				{
+-					"type": "checkbox",
+-					"id": "show_product_description",
+-					"label": "Show product description",
+-					"default": false
+-				},
+-				{
+-					"type": "checkbox",
+-					"id": "show_tabs_below_product_gallery",
+-					"label": "Show tabs below product gallery",
+-					"info": "Desktop only",
+-					"default": false
+-				},
+-				{
+-					"type": "header",
+-					"content": "Tab"
+-				},
+-				{
+-					"type": "text",
+-					"id": "tab_heading_1",
+-					"label": "Heading",
+-					"default": "Tab 1"
+-				},
+-				{
+-					"type": "richtext",
+-					"id": "tab_text_1",
+-					"label": "Text",
+-					"default": "<p>Use this text to share information about your product.</p>"
+-				},
+-				{
+-					"type": "header",
+-					"content": "Tab"
+-				},
+-				{
+-					"type": "text",
+-					"id": "tab_heading_2",
+-					"label": "Heading",
+-					"default": "Tab 2"
+-				},
+-				{
+-					"type": "richtext",
+-					"id": "tab_text_2",
+-					"label": "Text",
+-					"default": "<p>Use this text to share information about your product.</p>"
+-				},
+-				{
+-					"type": "header",
+-					"content": "Tab"
+-				},
+-				{
+-					"type": "text",
+-					"id": "tab_heading_3",
+-					"label": "Heading",
+-					"default": "Tab 3"
+-				},
+-				{
+-					"type": "richtext",
+-					"id": "tab_text_3",
+-					"label": "Text",
+-					"default": "<p>Use this text to share information about your product.</p>"
+-				}
+-			]
+-		},
+-		{
+ 			"type": "text",
+ 			"name": "Text",
+ 			"settings": [
+@@ -240,39 +240,7 @@
+ 			"name": "Vendor",
+ 			"limit": 1
+ 		},
+-		{
+-			"type": "complementary_products",
+-			"name": "Complementary products",
+-			"limit": 1,
+-			"settings": [
+-				{
+-					"type": "paragraph",
+-					"content": "To select complementary products, add the Search & Discovery app. [Learn more](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+-				},
+-				{
+-					"type": "text",
+-					"id": "heading",
+-					"label": "Heading",
+-					"default": "Pairs well with"
+-				},
+-				{
+-					"type": "range",
+-					"id": "product_recommendation_limit",
+-					"label": "Maximum products to show",
+-					"min": 1,
+-					"max": 10,
+-					"default": 5
+-				},
+-				{
+-					"type": "range",
+-					"id": "products_per_slide",
+-					"label": "Number of products per page",
+-					"min": 1,
+-					"max": 3,
+-					"default": 2
+-				}
+-			]
+-		}
++
+ 	]
+ }
+ 
+Index: sections/custom-html.liquid
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sections/custom-html.liquid b/sections/custom-html.liquid
+new file mode 100644
+--- /dev/null	(date 1736510672942)
++++ b/sections/custom-html.liquid	(date 1736510672942)
+@@ -0,0 +1,75 @@
++<script
++		type="application/json"
++		data-section-type="custom-html"
++		data-section-id="{{ section.id }}"
++>
++</script>
++
++{% comment %} Section specific CSS {% endcomment %}
++{% style %}
++	{%
++			render 'custom-css',
++			css: section.settings.custom_css,
++			id: section.id
++	%}
++{% endstyle %}
++
++<div class="section__root section-{{ section.id }} {{ section.settings.css_class }}">
++	<div class="section__inner">
++		<div class="section__content"
++		>
++			{% if section.settings.custom_html != blank %}
++				<div class="rte">
++					{{ section.settings.custom_html }}
++				</div>
++			{% else %}
++				<p class="center">
++					{{ 'homepage.onboarding.no_content' | t }}
++				</p>
++			{% endif %}
++		</div>
++	</div>
++</div>
++
++{% schema %}
++{
++	"name": "Custom HTML",
++	"class": "shopify-section__custom-html",
++	"tag": "section",
++	"settings": [
++		{
++			"type": "textarea",
++			"id": "custom_html",
++			"label": "Custom html"
++		},
++		{
++			"type": "header",
++			"content": "Advanced"
++		},
++		{
++			"type": "paragraph",
++			"content": "[Learn more](https://shopify.com)"
++		},
++		{
++			"type": "text",
++			"id": "css_class",
++			"label": "CSS Class"
++		},
++		{
++			"type": "textarea",
++			"id": "custom_css",
++			"label": "Custom CSS"
++		}
++	],
++	"presets": [
++		{
++			"name": "Custom HTML",
++			"category": "Content"
++		}
++	],
++	"disabled_on": {
++		"groups": [ "*" ]
++	}
++}
++
++{% endschema %}
+\ No newline at end of file
+Index: snippets/rateing-stars.liquid
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/snippets/rateing-stars.liquid b/snippets/rateing-stars.liquid
+new file mode 100644
+--- /dev/null	(date 1736509532829)
++++ b/snippets/rateing-stars.liquid	(date 1736509532829)
+@@ -0,0 +1,34 @@
++{% comment %}
++  @param value {Float}
++    Rating value
++  @param scale_max {Float}
++    Maximum rating value in scale
++{% endcomment %}
++
++{% comment %}Normalize rating to a 0-5 scale and round to nearest 0.5{% endcomment %}
++{% liquid
++    assign max = scale_max | times: 1.0
++    assign scaled_value = value | times: 10 | divided_by: max | round | divided_by: 2.0
++%}
++
++<div
++        class="rating__star-wrapper"
++        style="--rating-value: {{ scaled_value }};"
++        role="img"
++        aria-label="{{ 'general.accessibility.star_reviews_info' | t: rating_value: value, rating_max: scale_max }}"
++>
++    {% for n in (1..5) %}
++        <svg
++                class="rating__star rating__star-{{ forloop.index }}"
++                aria-hidden="true"
++                focusable="false"
++                role="presentation"
++                xmlns="http://www.w3.org/2000/svg"
++                width="20"
++                height="20"
++                viewBox="3 3 17 17"
++        >
++            <use clip-path="url(#icon-star-clip)" xlink:href="#icon-star" />
++        </svg>
++    {% endfor %}
++</div>
+Index: sections/custom-liquid.liquid
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sections/custom-liquid.liquid b/sections/custom-liquid.liquid
+new file mode 100644
+--- /dev/null	(date 1736526978066)
++++ b/sections/custom-liquid.liquid	(date 1736526978066)
+@@ -0,0 +1,65 @@
++<script
++        type="application/json"
++        data-section-type="custom-liquid"
++        data-section-id="{{ section.id }}"
++>
++</script>
++
++{% comment %} Section specific CSS {% endcomment %}
++{% style %}
++    {%
++            render 'custom-css',
++            css: section.settings.custom_css,
++            id: section.id
++    %}
++{% endstyle %}
++
++<section class="section section__root section-{{ section.id }} {{ section.settings.css_class }}">
++    <div class="section__inner">
++        <div class="section__content">
++            {{ section.settings.custom_liquid }}
++        </div>
++    </div>
++</section>
++
++{% schema %}
++{
++	"name": "Custom liquid",
++	"class": "shopify-section--custom-liquid",
++	"settings": [
++		{
++			"type": "liquid",
++			"id": "custom_liquid",
++			"label": "Custom liquid"
++		},
++		{
++			"type": "header",
++			"content": "Advanced"
++		},
++		{
++			"type": "paragraph",
++			"content": "[Learn more](https://help.outofthesandbox.com/hc/en-us/articles/360022329373)"
++		},
++		{
++			"type": "text",
++			"id": "css_class",
++			"label": "CSS Class"
++		},
++		{
++			"type": "textarea",
++			"id": "custom_css",
++			"label": "Custom CSS"
++		}
++	],
++	"presets": [
++		{
++			"name": "Custom liquid",
++			"category": "Content"
++		}
++	],
++	"disabled_on": {
++		"groups": [ "*" ]
++	}
++}
++
++{% endschema %}
+\ No newline at end of file
+Index: sections/page-template.liquid
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{%- style -%}\n    .section-{{ section.id }}-padding {\n        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;\n        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;\n    }\n\n    @media screen and (min-width: 750px) {\n        .section-{{ section.id }}-padding {\n            padding-top: {{ section.settings.padding_top }}px;\n            padding-bottom: {{ section.settings.padding_bottom }}px;\n        }\n    }\n{%- endstyle -%}\n\n<div class=\"section-{{ section.id }}-padding\">\n    <h1 class=\"main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}\">\n        {{ page.title | escape }}\n    </h1>\n    <div class=\"rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}\">\n        {{ page.content }}\n    </div>\n</div>\n\n\n{% schema %}\n{\n\t\"name\": \"t:sections.main-page.name\",\n\t\"tag\": \"section\",\n\t\"class\": \"section\",\n\t\"settings\": [\n\t\t{\n\t\t\t\"type\": \"header\",\n\t\t\t\"content\": \"t:sections.all.padding.section_padding_heading\"\n\t\t},\n\t\t{\n\t\t\t\"type\": \"range\",\n\t\t\t\"id\": \"padding_top\",\n\t\t\t\"min\": 0,\n\t\t\t\"max\": 100,\n\t\t\t\"step\": 4,\n\t\t\t\"unit\": \"px\",\n\t\t\t\"label\": \"t:sections.all.padding.padding_top\",\n\t\t\t\"default\": 36\n\t\t},\n\t\t{\n\t\t\t\"type\": \"range\",\n\t\t\t\"id\": \"padding_bottom\",\n\t\t\t\"min\": 0,\n\t\t\t\"max\": 100,\n\t\t\t\"step\": 4,\n\t\t\t\"unit\": \"px\",\n\t\t\t\"label\": \"t:sections.all.padding.padding_bottom\",\n\t\t\t\"default\": 36\n\t\t}\n\t]\n}\n{% endschema %}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sections/page-template.liquid b/sections/page-template.liquid
+--- a/sections/page-template.liquid	(revision ae25372604a0a494bfa3cc85f07e950448d114d9)
++++ b/sections/page-template.liquid	(date 1736509924833)
+@@ -1,25 +1,21 @@
+-{%- style -%}
+-    .section-{{ section.id }}-padding {
+-        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+-        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+-    }
+-
+-    @media screen and (min-width: 750px) {
+-        .section-{{ section.id }}-padding {
+-            padding-top: {{ section.settings.padding_top }}px;
+-            padding-bottom: {{ section.settings.padding_bottom }}px;
+-        }
+-    }
+-{%- endstyle -%}
+-
+-<div class="section-{{ section.id }}-padding">
+-    <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+-        {{ page.title | escape }}
+-    </h1>
+-    <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+-        {{ page.content }}
+-    </div>
+-</div>
++<script type="application/json" data-section-type="page-template" data-section-id="{{ section.id }}">
++</script>
++<section class="section section__root section-{{ section.id }}">
++	<div class="section__inner">
++		<div class="section__header">
++			<h1 class="title page-title">
++				{{ page.title | escape }}
++			</h1>
++		</div>
++
++		<div class="section__content">
++			{{ page.content }}
++		</div>
++		<div class="section__footer">
++
++		</div>
++	</div>
++</section>
+ 
+ 
+ {% schema %}
+Index: sections/list-collections-template.liquid
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sections/list-collections-template.liquid b/sections/list-collections-template.liquid
+new file mode 100644
+--- /dev/null	(date 1736508294543)
++++ b/sections/list-collections-template.liquid	(date 1736508294543)
+@@ -0,0 +1,4 @@
++<script type="application/json" data-section-type="list-collections-template" data-section-id="{{ section.id }}">
++</script>
++
++<section class="section section-{{  }}"
+\ No newline at end of file
+Index: snippets/product__structured-data.liquid
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/snippets/product__structured-data.liquid b/snippets/product__structured-data.liquid
+new file mode 100644
+--- /dev/null	(date 1736508456210)
++++ b/snippets/product__structured-data.liquid	(date 1736508456210)
+@@ -0,0 +1,56 @@
++{% comment %}
++  Product structured data
++  https://developers.google.com/search/docs/data-types/products
++{% endcomment %}
++
++{%- assign selected_variant = product.selected_or_first_available_variant | default: product.variants.first -%}
++{%- assign product_image = selected_variant.featured_image | default: product.featured_image -%}
++
++{%- capture product_name -%}
++    {{ product.title | escape }}
++    {%- if selected_variant.title != 'Default Title' and selected_variant.option1 == 'Default Title' -%}
++        - {{ selected_variant.title }}
++    {%- endif -%}
++{%- endcapture -%}
++
++{%- assign now = 'now' | date: '%Y-%m-%d' | split: '-' -%}
++
++{% capture year_from_now %}
++    {{ now[0] | plus: 1 }}-{{ now[1] }}-{{ now[2] | at_most: 28 }}
++{% endcapture %}
++
++<script type="application/ld+json">
++    {
++      "@context": "http://schema.org/",
++      "@type": "Product",
++      "name": {{ product_name | strip_newlines | json }},
++    "image": {{ product_image | img_url: '1024x1024' | prepend: 'https:' | json }},
++{% if product.description != blank %}
++      "description": {{ product.description | json }},
++    {% endif %}
++    {% if product.vendor %}
++      "brand": {
++        "@type": "Thing",
++        "name": {{ product.vendor | json }}
++      },
++    {% endif %}
++    {% if selected_variant.sku != blank %}
++      "sku": {{ selected_variant.sku | json }},
++    {% endif %}
++    {% if selected_variant.barcode != blank %}
++      "mpn": {{ selected_variant.barcode | json }},
++    {% endif %}
++    "offers": {
++      "@type": "Offer",
++      "priceCurrency": {{ cart.currency.iso_code | json }},
++      "price": {{ selected_variant.price | divided_by: 100.0 | json }},
++      "availability": "http://schema.org/{% if selected_variant.available %}InStock{% else %}OutOfStock{% endif %}",
++      "url": "{{ shop.url }}{{ selected_variant.url }}",
++      "seller": {
++        "@type": "Organization",
++        "name": {{ shop.name | json }}
++    },
++    "priceValidUntil": {{ year_from_now | json }}
++    }
++  }
++</script>
