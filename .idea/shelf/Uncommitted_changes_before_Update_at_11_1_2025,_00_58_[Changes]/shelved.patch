@@ -1,0 +1,363 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"9ccb4150-5a63-4dbf-ac3d-f9487c4eac87\" name=\"Changes\" comment=\"update\">\n      <change afterPath=\"$PROJECT_DIR$/assets/base.css\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/snippets/article-card.liquid\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/snippets/pagination.liquid\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/sections/article-template.liquid\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/sections/article-template.liquid\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/sections/product-template.liquid\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/sections/product-template.liquid\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/snippets/product.liquid\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/snippets/product.liquid\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;slurpyb&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/slurpyb/shopify-theme-base.git&quot;,\n    &quot;accountId&quot;: &quot;78efd775-11c3-496d-9a70-f154605f7743&quot;\n  }\n}</component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 4\n}</component>\n  <component name=\"ProjectId\" id=\"2rR0LePAJsGp9u9LUTDACPxfv62\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n    <option name=\"showMembers\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/Users/jordan/src/2025/shopify-theme-base/sections&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/sections\" />\n    </key>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"9ccb4150-5a63-4dbf-ac3d-f9487c4eac87\" name=\"Changes\" comment=\"\" />\n      <created>1736506525920</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1736506525920</updated>\n      <workItem from=\"1736506527025\" duration=\"5522000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"initial commit\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1736506552473</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1736506552473</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"fix header\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1736507334935</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1736507334935</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"clean out index template\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1736507528164</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1736507528164</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"update\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1736527016863</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1736527016863</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"5\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"initial commit\" />\n    <MESSAGE value=\"fix header\" />\n    <MESSAGE value=\"clean out index template\" />\n    <MESSAGE value=\"update\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"update\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 03cda990dc47fbcae9104eef4209e9a67d006e34)
++++ b/.idea/workspace.xml	(date 1736528124929)
+@@ -5,12 +5,9 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="9ccb4150-5a63-4dbf-ac3d-f9487c4eac87" name="Changes" comment="update">
+-      <change afterPath="$PROJECT_DIR$/assets/base.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/snippets/article-card.liquid" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/snippets/pagination.liquid" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/sections/article-template.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/article-template.liquid" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/sections/product-template.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/product-template.liquid" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/snippets/product.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/product.liquid" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/shopify.theme.toml" beforeDir="false" afterPath="$PROJECT_DIR$/shopify.theme.toml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/templates/product.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product.json" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -77,7 +74,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1736506525920</updated>
+-      <workItem from="1736506527025" duration="5522000" />
++      <workItem from="1736506527025" duration="6328000" />
+     </task>
+     <task id="LOCAL-00001" summary="initial commit">
+       <option name="closed" value="true" />
+@@ -111,7 +108,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1736527016863</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="update">
++      <option name="closed" value="true" />
++      <created>1736527808561</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1736527808561</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+Index: shopify.theme.toml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># usage: shopify theme dev --environment dev\n[environments.dev]\ntheme = \"146147803377\"\nstore = \"slurpyb-theme-base\"\n# Password generated from the Theme Access app.\n#password  = \"shptka_123456\"\n#ignore = \"sections/header.liquid\"\nstore-password = 'sheita'\ntheme-editor-sync = true\n#output = \"json\"\nlive = false\nallow-live = false\nverbose = true\nno-delete = true\nlive-reload = \"hot-reload\"\nhost = \"127.0.0.1\"\nport = \"9292\"\n\n#[environments.staging]\n#theme = \"shopify-theme-base\"\n#store = \"slurpyb\"\n##password  = \"shptka_123456\"\n##ignore = \"sections/header.liquid\"\n#output = \"json\"\n#live = true\n#allow-live = true\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/shopify.theme.toml b/shopify.theme.toml
+--- a/shopify.theme.toml	(revision 03cda990dc47fbcae9104eef4209e9a67d006e34)
++++ b/shopify.theme.toml	(date 1736527878801)
+@@ -10,8 +10,8 @@
+ #output = "json"
+ live = false
+ allow-live = false
+-verbose = true
+-no-delete = true
++#verbose = false
++no-delete = false
+ live-reload = "hot-reload"
+ host = "127.0.0.1"
+ port = "9292"
+Index: snippets/product.liquid
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{% comment %}\n  @param product {Object}\n    The product object\n\n  @param context {String}\n    The name of the template\n\n  @param variant {Object}\n    The variant object\n{% endcomment %}\n\n{% if product != blank and context == 'product' %}\n    {%\n            render 'product__structured-data',\n            product: product\n    %}\n{% endif %}\n\n<div class=\"product product__root\">\n    <div class=\"product__inner\">\n        <div class=\"product__header\">\n\n        </div>\n        <div class=\"product__content\">\n            {% for block in section.blocks %}\n                <div class=\"product-block product-block__main product-block__{{ block.type }} {% if forloop.first == true %} product-block--first{% endif %}\"\n                        {{ block.shopify_attributes }}>\n                    <div class=\"product-block__inner {{ block.type }}__inner\">\n                        <div class=\"product-block__content {{ block.type }}__content\">\n                        {% case block.type %}\n                            {% when 'vendor' %}\n                                <p class=\"vendor\">\n                                    <span class=\"vendor\">\n                                        <a href=\"{% if collection %}{{ collection.url }}{% else %}{{ routes.all_products_collection_url }}{% endif %}?filter.p.vendor={{ product.vendor | url_param_escape }}\">\n                                          {{ product.vendor }}\n                                        </a>\n                                    </span>\n                                </p>\n                            {% when 'sku' %}\n                                {% if variant.sku != blank %}\n                                    <p class=\"sku\">\n                                        <span>{{ variant.sku }}</span>\n                                    </p>\n                                {% endif %}\n                            {% when 'title' %}\n                                {% if context == 'product' %}\n                                    <h1 class=\"title product-title\">\n                                        {{- product.title | escape -}}\n                                    </h1>\n                                {% else %}\n                                    <h2 class=\"title product-title\">\n                                        <a href=\"{{ product.url }}\">\n                                            {{- product.title | escape -}}\n                                        </a>\n                                    </h2>\n                                {% endif %}\n                            {% when 'price' %}\n                                <p class=\"price\">\n                                    {{ product.price }}\n                                </p>\n                            {% when 'custom-liquid' %}\n                                {{ block.settings.custom_liquid }}\n                            {% when 'description' %}\n                                {% if product.description != blank %}\n\n                                    <div class=\"description rte\">\n                                        {{ product.description | split: '<!-- split -->' | first }}\n                                    </div>\n\n                                {% endif %}\n                            {% when 'rating' %}\n                                {% if product.metafields.reviews.rating.value != blank %}\n                                    <div class=\"product-rating\">\n                                        {%\n                                                render 'rating-stars',\n                                                value: product.metafields.reviews.rating.value.rating,\n                                                scale_max: product.metafields.reviews.rating.value.scale_max\n                                        %}\n                                        <p class=\"rating__text\">\n                                            <span aria-hidden=\"true\">{{ product.metafields.reviews.rating.value }} / {{ product.metafields.reviews.rating.value.scale_max }}</span>\n                                        </p>\n                                        <p class=\"rating__count\">\n                                            <span aria-hidden=\"true\">({{ product.metafields.reviews.rating_count }})</span>\n                                            <span class=\"visually-hidden\">{{ product.metafields.reviews.rating_count }} total reviews </span>\n                                        </p>\n                                    </div>\n                                {% endif %}\n                            {% when '@app' %}\n                                {% render block %}\n                        {% endcase %}\n                        </div>\n                    </div>\n            </div>\n            {% endfor %}\n\n        </div>\n        <div class=\"product__footer\">\n\n        </div>\n    </div>\n</div>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/snippets/product.liquid b/snippets/product.liquid
+--- a/snippets/product.liquid	(revision 03cda990dc47fbcae9104eef4209e9a67d006e34)
++++ b/snippets/product.liquid	(date 1736528256554)
+@@ -85,6 +85,16 @@
+                                         </p>
+                                     </div>
+                                 {% endif %}
++                            {% when 'form' %}
++
++                                    {% unless collection_handles contains 'coming-soon' %}
++                                        {%
++                                                render 'product-form',
++                                                product: product,
++                                                show_payment_button: show_dynamic_checkout_button,
++                                                collection_handles: collection_handles
++                                        %}
++                                    {% endunless %}
+                             {% when '@app' %}
+                                 {% render block %}
+                         {% endcase %}
+Index: templates/product.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n  \"sections\": {\n    \"main\": {\n      \"type\": \"product-template\",\n      \"blocks\": {\n         \"vendor\": {\n          \"type\": \"text\",\n          \"settings\": {\n            \"text\": \"{{ product.vendor }}\",\n            \"text_style\": \"uppercase\"\n          }\n        },\n        \"title\": {\n          \"type\": \"title\"\n        },\n        \"price\": {\n          \"type\": \"price\"\n        },\n        \"description\": {\n          \"type\": \"description\"\n        },\n        \"variant_picker\": {\n          \"type\": \"variant_picker\",\n          \"settings\": {\n            \"picker_type\": \"button\"\n          }\n        },\n        \"quantity_selector\": {\n          \"type\": \"quantity_selector\"\n        },\n        \"buy_buttons\": {\n          \"type\": \"buy_buttons\",\n          \"settings\": {\n            \"show_dynamic_checkout\": true,\n            \"show_gift_card_recipient\": true\n          }\n        },\n      },\n      \"block_order\": [\n        \"vendor\",\n        \"title\",\n        \"price\",\n        \"description\",\n        \"variant_picker\",\n        \"quantity_selector\",\n        \"buy_buttons\"\n      ]\n    },\n  },\n  \"order\": [\n    \"main\",\n  ]\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/templates/product.json b/templates/product.json
+--- a/templates/product.json	(revision 03cda990dc47fbcae9104eef4209e9a67d006e34)
++++ b/templates/product.json	(date 1736528104212)
+@@ -1,53 +1,56 @@
++/*
++ * ------------------------------------------------------------
++ * IMPORTANT: The contents of this file are auto-generated.
++ *
++ * This file may be updated by the Shopify admin theme editor
++ * or related systems. Please exercise caution as any changes
++ * made to this file may be overwritten.
++ * ------------------------------------------------------------
++ */
+ {
+   "sections": {
+     "main": {
+       "type": "product-template",
+       "blocks": {
+-         "vendor": {
+-          "type": "text",
+-          "settings": {
+-            "text": "{{ product.vendor }}",
+-            "text_style": "uppercase"
+-          }
+-        },
+         "title": {
+-          "type": "title"
++          "type": "title",
++          "settings": {}
+         },
+         "price": {
+-          "type": "price"
+-        },
+-        "description": {
+-          "type": "description"
+-        },
+-        "variant_picker": {
+-          "type": "variant_picker",
+-          "settings": {
+-            "picker_type": "button"
+-          }
+-        },
+-        "quantity_selector": {
+-          "type": "quantity_selector"
+-        },
+-        "buy_buttons": {
+-          "type": "buy_buttons",
++          "type": "price",
+           "settings": {
+-            "show_dynamic_checkout": true,
+-            "show_gift_card_recipient": true
++            "display_savings": true
+           }
+         },
++        "description": {
++          "type": "description",
++          "settings": {}
++        },
++        "form": {
++          "type": "form",
++          "settings": {}
++        },
++        "sku_DCktbn": {
++          "type": "sku",
++          "settings": {}
++        },
++        "rating_wkCXFK": {
++          "type": "rating",
++          "settings": {}
++        }
+       },
+       "block_order": [
+-        "vendor",
+         "title",
+         "price",
+         "description",
+-        "variant_picker",
+-        "quantity_selector",
+-        "buy_buttons"
+-      ]
+-    },
++        "form",
++        "sku_DCktbn",
++        "rating_wkCXFK"
++      ],
++      "settings": {}
++    }
+   },
+   "order": [
+-    "main",
++    "main"
+   ]
+ }
+Index: snippets/product-form.liquid
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/snippets/product-form.liquid b/snippets/product-form.liquid
+new file mode 100644
+--- /dev/null	(date 1736528235270)
++++ b/snippets/product-form.liquid	(date 1736528235270)
+@@ -0,0 +1,153 @@
++{% if show_payment_button == false or product.selling_plan_groups.size > 0 %}
++    {% assign show_payment_button = false %}
++{% else %}
++    {% assign show_payment_button = true %}
++{% endif %}
++
++{% assign variant = product.selected_or_first_available_variant %}
++
++{%- assign checkout_url = '/checkout' -%}
++{% for locale in shop.enabled_locales %}
++    {% if locale.primary == true %}
++        {%- assign defaultLocale = locale.iso_code -%}
++        {% if defaultLocale != request.locale.iso_code %}
++            {%- assign checkout_url = request.locale.iso_code | append: '/checkout' -%}
++        {% endif %}
++    {% endif %}
++{% endfor %}
++
++<div
++        class="
++    product_form
++    init
++    smart-payment-button--{{ show_payment_button }}
++    {% if product.variants.size > 1 or product.options.size > 1 %}product_form_options{% endif %}
++  "
++        id="product-form-{{ product.id }}"
++        data-product-form
++        data-money-format="{{ shop.money_format | strip_html }}"
++        data-shop-currency="{{ shop.currency }}"
++        data-options-size="{{ product.options.size }}"
++        data-select-id="product-select-{{ product.id }}{{ product-form }}{{ section.id }}{{ block.id }}"
++        data-enable-state="{% if template contains 'product' %}true{% else %}false{% endif %}"
++        data-product="{{ product | json | escape }}"
++        data-product-title="{{ product.title | escape }}"
++        {% if settings.limit_quantity or settings.display_inventory_left %}
++            data-variant-inventory='[{%- for v in product.variants -%}{"id":{{v.id}},"inventory_quantity":{{v.inventory_quantity}},"inventory_management":"{{v.inventory_management}}","inventory_policy":"{{v.inventory_policy}}"}{% if forloop.last == false %},{% endif %}{%- endfor -%}]'
++        {% endif %}
++        data-product-id="{{ product.id }}"
++>
++    {% form 'product', product %}
++
++        <div
++                class="
++      select
++      {% if product.has_only_default_variant %}default_select{% endif %}
++    "
++        >
++
++            {% if product.options.size == 1 and settings.product_form_style == 'select' %}
++                <label>{{ product.options[0] }}</label>
++            {% endif %}
++
++            <select
++                    id="product-select-{{ product.id }}{{ product-form }}{{ section.id }}{{ block.id }}"
++                    name="id"
++                    class="{% if product.options.size > 1 %}multi_select{% endif %}"
++                    data-variants
++            >
++                {% for v in product.variants %}
++                    <option {% if v == variant %}selected="selected"{% endif %} value="{{ v.id }}" data-featured-image="{{ v.featured_media }}" data-image="{{ v.featured_media | product_img_url: '600x' }}" data-sku="{{ v.sku }}">{{ v.title }}</option>
++                {% endfor %}
++            </select>
++        </div>
++
++        {% if settings.product_form_style == "radio" and product.variants.size > 1 or settings.product_form_style == "radio" and product.options[0] != "Title" %}
++            <div class="swatch_options">
++                {% for option in product.options %}
++                    {%
++                            render 'product-swatch',
++                            option: option,
++                            product: product
++                    %}
++                {% endfor %}
++            </div>
++        {% endif %}
++
++        {% if product.available %}
++            {% if settings.display_inventory_left %}
++                <div class="items_left">
++                    {% if variant.inventory_management != blank and variant.inventory_quantity > 0 %}
++                        {% capture items_left_text %}
++                            {% if variant.inventory_quantity == 1 %}
++                                {{ 'products.product.items_left_count.one' | t }}
++                            {% else %}
++                                {{ 'products.product.items_left_count.other' | t }}
++                            {% endif %}
++                        {% endcapture %}
++                        {% if variant.inventory_quantity <= settings.inventory_threshold %}
++                            {{ variant.inventory_quantity }} {{ items_left_text }}
++                        {% endif %}
++                    {% endif %}
++                </div>
++            {% endif %}
++        {% endif %}
++
++        <div class="purchase-details">
++            {% if settings.display_product_quantity %}
++                <div class="purchase-details__quantity product-quantity-box">
++                    <label for="quantity">{{ 'products.product.quantity' | t }}</label>
++                    <span class="ss-icon product-minus js-change-quantity" data-func="minus"><span class="icon-minus"></span></span>
++                    <input type="number" min="1" size="2" class="quantity" name="quantity" id="quantity" value="1" {% if settings.limit_quantity and variant.inventory_management != blank and variant.inventory_policy == "deny" %}max="{{ variant.inventory_quantity }}"{% endif %} />
++                    <span class="ss-icon product-plus js-change-quantity" data-func="plus"><span class="icon-plus"></span></span>
++                </div>
++            {% endif %}
++            <div class="purchase-details__buttons purchase-details__spb--{{ show_payment_button }} {% if product.available == false %}product-is-unavailable{% endif %}">
++                {% if settings.cart_action == 'reload_page' %}
++                    <input type="hidden" name="return_to" value="back" />
++                {% elsif settings.cart_action == 'redirect_checkout' %}
++                    <input type="hidden" name="return_to" value="{{ checkout_url }}" />
++                {% endif %}
++
++                {% capture add_to_cart_label %}{% if collection_handles contains 'pre-order' %}{{ 'collections.general.pre_order' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endif %}{% endcapture %}
++                <button
++                        type="{% if settings.cart_action == 'ajax' %}button{% else %}submit{% endif %}"
++                        name="add"
++                        class="
++          add_to_cart
++          global-button
++          {% if show_payment_button %}
++            global-button--secondary
++          {% else %}
++            global-button--primary
++          {% endif %}
++          {% if settings.cart_action == 'ajax' %}
++            ajax-submit
++          {% endif %}
++          {% if product.available == false %}
++            disabled
++          {% endif %}
++        "
++                        data-label={{ add_to_cart_label | json }}
++                >
++        <span class="text">
++          {% if product.available %}{{ add_to_cart_label }}{% else %}{{ 'products.product.sold_out' | t }}{% endif %}
++        </span>
++                    <svg x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" class="checkmark">
++                        <path fill="none" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11"/>
++                    </svg>
++                </button>
++                {% if show_payment_button %}
++                    {{ form | payment_button }}
++                {% endif %}
++
++                <div data-payment-terms-reference style="display: none;">
++                    {{ form | payment_terms }}
++                </div>
++            </div>
++        </div>
++    {% endform %}
++
++    <div class="surface-pick-up surface-pick-up--loading" data-surface-pick-up></div>
++    <div class="surface-pick-up__modal" data-surface-pick-up-modal></div>
++</div>
