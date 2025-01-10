@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ccb4150-5a63-4dbf-ac3d-f9487c4eac87" name="Changes" comment="fix header" />
+    <list default="true" id="9ccb4150-5a63-4dbf-ac3d-f9487c4eac87" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/sections/custom-html.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/custom-liquid.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/list-collections-template.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/custom-css.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/product__structured-data.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/rateing-stars.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/page-template.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/page-template.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/product-template.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/product-template.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopify.theme.toml" beforeDir="false" afterPath="$PROJECT_DIR$/shopify.theme.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/product.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/product.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list-collections.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list-collections.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +42,9 @@
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="2rR0LePAJsGp9u9LUTDACPxfv62" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/jordan/src/2025/shopify-theme-base",
+    "last_opened_file_path": "/Users/jordan/src/2025/shopify-theme-base/sections",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,6 +63,11 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sections" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -62,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736506525920</updated>
-      <workItem from="1736506527025" duration="835000" />
+      <workItem from="1736506527025" duration="5208000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -80,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736507334935</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="clean out index template">
+      <option name="closed" value="true" />
+      <created>1736507528164</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736507528164</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +129,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="fix header" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix header" />
+    <MESSAGE value="clean out index template" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

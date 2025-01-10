@@ -1,0 +1,19 @@
+{% comment %}
+Custom CSS loop - creates CSS declarations that are specific to the section or block
+  @param id {Number}
+    The section or block id (required)
+  @param css {String}
+    CSS declarations (required)
+
+Example use:
+    {% render 'css-loop', section: {{ section.id }}, css: {{ section.settings.custom_css }} %}
+{% endcomment %}
+
+{%- if css != blank -%}
+    {%- assign declarations = css | split: '}' -%}
+    {%- for declaration in declarations -%}
+        {%- if declaration != '' -%}
+            #shopify-section-{{ id }} {{ declaration }} }
+        {%- endif -%}
+    {%- endfor -%}
+{%- endif -%}

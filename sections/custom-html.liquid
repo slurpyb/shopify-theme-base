@@ -1,0 +1,75 @@
+<script
+		type="application/json"
+		data-section-type="custom-html"
+		data-section-id="{{ section.id }}"
+>
+</script>
+
+{% comment %} Section specific CSS {% endcomment %}
+{% style %}
+	{%
+			render 'custom-css',
+			css: section.settings.custom_css,
+			id: section.id
+	%}
+{% endstyle %}
+
+<div class="section__root section-{{ section.id }} {{ section.settings.css_class }}">
+	<div class="section__inner">
+		<div class="section__content"
+		>
+			{% if section.settings.custom_html != blank %}
+				<div class="rte">
+					{{ section.settings.custom_html }}
+				</div>
+			{% else %}
+				<p class="center">
+					{{ 'homepage.onboarding.no_content' | t }}
+				</p>
+			{% endif %}
+		</div>
+	</div>
+</div>
+
+{% schema %}
+{
+	"name": "Custom HTML",
+	"class": "shopify-section__custom-html",
+	"tag": "section",
+	"settings": [
+		{
+			"type": "textarea",
+			"id": "custom_html",
+			"label": "Custom html"
+		},
+		{
+			"type": "header",
+			"content": "Advanced"
+		},
+		{
+			"type": "paragraph",
+			"content": "[Learn more](https://shopify.com)"
+		},
+		{
+			"type": "text",
+			"id": "css_class",
+			"label": "CSS Class"
+		},
+		{
+			"type": "textarea",
+			"id": "custom_css",
+			"label": "Custom CSS"
+		}
+	],
+	"presets": [
+		{
+			"name": "Custom HTML",
+			"category": "Content"
+		}
+	],
+	"disabled_on": {
+		"groups": [ "*" ]
+	}
+}
+
+{% endschema %}
