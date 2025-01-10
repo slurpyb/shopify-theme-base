@@ -85,6 +85,20 @@
                                         </p>
                                     </div>
                                 {% endif %}
+                            {% when 'form' %}
+                            
+                                    {% unless collection_handles contains 'coming-soon' %}
+                                        {%
+                                                render 'product-form',
+                                                product: product,
+                                                show_payment_button: show_dynamic_checkout_button,
+                                                collection_handles: collection_handles
+                                        %}
+                                        {%
+                                                render 'product-notify-me',
+                                                product: product
+                                        %}
+                                    {% endunless %}
                             {% when '@app' %}
                                 {% render block %}
                         {% endcase %}
