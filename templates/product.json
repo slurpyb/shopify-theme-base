@@ -18,7 +18,9 @@
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+            "display_savings": true
+          }
         },
         "description": {
           "type": "description",
@@ -27,13 +29,23 @@
         "form": {
           "type": "form",
           "settings": {}
+        },
+        "sku_DCktbn": {
+          "type": "sku",
+          "settings": {}
+        },
+        "rating_wkCXFK": {
+          "type": "rating",
+          "settings": {}
         }
       },
       "block_order": [
         "title",
         "price",
         "description",
-        "form"
+        "form",
+        "sku_DCktbn",
+        "rating_wkCXFK"
       ],
       "settings": {}
     }
