@@ -1,0 +1,26 @@
+# usage: shopify theme dev --environment dev
+[environments.dev]
+theme = "shopify-theme-base"
+store = "slurpyb"
+# Password generated from the Theme Access app.
+#password  = "shptka_123456"
+#ignore = "sections/header.liquid"
+store-password = 'a67exoaL7aBD4EalAgEGwVsS9gSbQ2k8'
+theme-editor-sync = true
+output = "json"
+live = false
+allow-live = false
+verbose = true
+no-delete = true
+live-reload = "hot-reload"
+host = "127.0.0.1"
+port = "9292"
+
+#[environments.staging]
+#theme = "shopify-theme-base"
+#store = "slurpyb"
+##password  = "shptka_123456"
+##ignore = "sections/header.liquid"
+#output = "json"
+#live = true
+#allow-live = true

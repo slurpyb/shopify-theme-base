@@ -1,0 +1,35 @@
+# https://shopify.dev/docs/storefronts/themes/tools/theme-check/configuration
+# The directory where theme folders are located (optional)
+root: .
+
+# Configuration files are extensible
+extends:
+  - theme-check:recommended # or theme-check:all, theme-check:theme-app-extension
+#  - '@acme/my-custom-checks/recommended.yml'
+#  - '../configs/.theme-check.yml'
+
+# JSON file checks
+#These checks analyze the syntax, content and structure of JSON files.
+
+# Identifies when a JSON template file is referencing block types that don't exist.
+JSONMissingBlock:
+  enabled: true
+# Identifies invalid JSON files in themes.
+JSONSyntaxError:
+  enabled: true
+# Identifies invalid HTML inside translations.
+ValidHTMLTranslation:
+  enabled: true
+# Identifies missing or additional translations in locale files.
+MatchingTranslations:
+  enabled: false
+
+
+TemplateLength:
+  enabled: false
+  severity: warning
+#  ignore:
+#    - templates/index.liquid
+# Paths to ignore (don't lint those!)
+ignore:
+  - 'node_modules/**'
