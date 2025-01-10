@@ -1,11 +1,11 @@
 # usage: shopify theme dev --environment dev
 [environments.dev]
-theme = "shopify-theme-base"
-store = "slurpyb"
+theme = "146147803377"
+store = "slurpyb-theme-base"
 # Password generated from the Theme Access app.
 #password  = "shptka_123456"
 #ignore = "sections/header.liquid"
-store-password = 'a67exoaL7aBD4EalAgEGwVsS9gSbQ2k8'
+store-password = 'sheita'
 theme-editor-sync = true
 output = "json"
 live = false
